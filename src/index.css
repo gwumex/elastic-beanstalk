@@ -1,0 +1,29 @@
+:root{
+  --clr--primary: #16151A;
+  --clr--secondary: #F97B43;
+  --clr--gray: #33373D;
+  --clr-white: #FFFFFF;
+  --pd--general: 1rem 4rem;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--clr-white);
+  background-color: var(--clr--primary);
+  font-size: 10px;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  opacity: 0.6;
+}
